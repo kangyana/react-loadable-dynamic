@@ -1,0 +1,65 @@
+{
+  "name": "react-loadable-dynamic",
+  "version": "1.0.0",
+  "description": "A React Load component on demand.",
+  "keywords": [
+    "react-loadable",
+    "dynamic"
+  ],
+  "author": {
+    "name": "kangyana",
+    "email": "564469630@qq.com",
+    "url": "https://github.com/kangyana"
+  },
+  "bugs": {
+    "url": "https://github.com/kangyana/react-loadable-dynamic/issues",
+    "email": "564469630@qq.com"
+  },
+  "repository": "https://github.com/kangyana/react-loadable-dynamic",
+  "homepage": "https://github.com/kangyana/react-loadable-dynamic",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "gulp build"
+  },
+  "main": "./cjs/index.js",
+  "module": "./es/index.js",
+  "types": "./es/index.d.ts",
+  "typings": "./es/index.d.ts",
+  "dependencies": {
+    "react-loadable": "^5.5.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@types/node": "^18.0.6",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-loadable": "^5.5.6",
+    "@umijs/fabric": "^3.0.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.77.0",
+    "through2": "^4.0.2",
+    "tslint": "^6.1.3",
+    "typescript": "^4.7.4"
+  },
+  "resolutions": {
+    "@types/react": "18",
+    "@types/react-dom": "18"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
