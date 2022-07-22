@@ -58,7 +58,7 @@ export default () => {
 
 ## 💻 Online Demo
 
-[![Edit demo for react-loadable-dynamic](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/demo-for-react-loadable-dynamic-forked-0bl727)
+[![Edit demo for react-loadable-dynamic](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/demo-for-react-loadable-dynamic-4zp1bb)
 
 ## 🤝 Contributing
 
