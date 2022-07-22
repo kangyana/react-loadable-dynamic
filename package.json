@@ -1,6 +1,6 @@
 {
   "name": "react-loadable-dynamic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Load component on demand.",
   "keywords": [
     "react-loadable",
@@ -20,14 +20,18 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "publish": "npm publish ./lib --registry=https://registry.npmjs.org",
+    "publish:alpha": "npm publish ./lib --registry=https://registry.npmjs.org --tag alpha",
+    "publish:dev": "npm publish ./lib --registry=https://registry.npmjs.org --tag dev"
   },
   "main": "./cjs/index.js",
   "module": "./es/index.js",
   "types": "./es/index.d.ts",
   "typings": "./es/index.d.ts",
   "dependencies": {
-    "react-loadable": "^5.5.0"
+    "react-loadable": "^5.5.0",
+    "react-loadable-dynamic": "^1.0.1"
   },
   "peerDependencies": {
     "react": ">=16.8.0"
