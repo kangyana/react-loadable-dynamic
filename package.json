@@ -1,6 +1,6 @@
 {
   "name": "react-loadable-dynamic",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A React Load component on demand.",
   "keywords": [
     "react-loadable",
